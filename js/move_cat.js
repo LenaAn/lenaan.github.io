@@ -22,8 +22,12 @@ const increaseCountHandler = () => {
 	score.innerText = parseInt(score.innerText) + 1;
 }
 
+const startTimeOut = () => {
+	timeoutHandle = window.setTimeout(catIsGone, 1000);
+}
 
-timeoutHandle = window.setTimeout(catIsGone, 1000);
 cat.addEventListener('click', changePositionHandler);
 cat.addEventListener('click', resetTimerHandler);
 cat.addEventListener('click', increaseCountHandler);
+
+window.addEventListener('load', startTimeOut);
