@@ -13,12 +13,24 @@
 	float: left;
 	text-align: right;
 
-	$height: 25px;
+	padding: 15px 25px;
+	font-size: 50px;
+	height: 50px;
+	line-height: 50px + 22px;
+	font-weight: bold;
+	color: white;
+}
+
+.catIsGone {
+	background: red;
+	float: left;
+	text-align: center;
+	margin-top: 20%;
 
 	padding: 15px 25px;
-	font-size: $height;
-	height: $height;
-	line-height: $height + 22px;
+	font-size: 50px;
+	height: 100px;
+	line-height: 50px + 22px;
 	font-weight: bold;
 	color: white;
 }

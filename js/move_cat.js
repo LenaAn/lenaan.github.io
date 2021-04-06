@@ -1,9 +1,11 @@
 function catIsGone() {
 	cat.style.display = "none";
+	catIsGoneLabel.toggleAttribute("hidden");
 }
 
 const cat = document.getElementById('myCat');
 const score = document.getElementById('score');
+const catIsGoneLabel = document.getElementById('theCatIsGone');
 var clickCount = 0;
 
 const changePositionHandler = () => {
