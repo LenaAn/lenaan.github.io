@@ -1,0 +1,24 @@
+.tile {
+  background: url(file:../img/CatGame.png);
+  width: 200px;
+  height: 286px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+
+.scoreBox {
+	background: red;
+	float: left;
+	text-align: right;
+
+	$height: 25px;
+
+	padding: 15px 25px;
+	font-size: $height;
+	height: $height;
+	line-height: $height + 22px;
+	font-weight: bold;
+	color: white;
+}
