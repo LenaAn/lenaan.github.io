@@ -6,7 +6,6 @@ function catIsGone() {
 const cat = document.getElementById('myCat');
 const score = document.getElementById('score');
 const catIsGoneLabel = document.getElementById('theCatIsGone');
-var clickCount = 0;
 
 const changePositionHandler = () => {
 	cat.style.position = "absolute";
@@ -17,6 +16,7 @@ const changePositionHandler = () => {
 
 const resetTimerHandler = () => {
 	window.clearTimeout(timeoutHandle);
+	// window.addEventListener('load', startTimeOut);
 	timeoutHandle = window.setTimeout(catIsGone, 1000);
 }
 
