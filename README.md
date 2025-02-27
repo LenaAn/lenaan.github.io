@@ -1,3 +1,3 @@
-# CatPettingGame
+# Cat Petting Game
 
-The game where you need to pet cats.
+A game where you pet your cat!!

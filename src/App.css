@@ -1,0 +1,11 @@
+.scoreBox {
+  background: red;
+  float: left;
+  text-align: right;
+  padding: 15px 25px;
+  font-size: 25px;
+  height: 25px;
+  line-height: 47px;
+  font-weight: bold;
+  color: white;
+}
